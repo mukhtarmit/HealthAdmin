@@ -61,50 +61,8 @@ HealthAdmin/
 ├── README.md
 ├── LICENSE
 └── .gitignore
+
 ```
-
-## Installation
-
-No installation or dependencies required — this is a static site.
-
-```bash
-git clone https://github.com/<your-username>/healthadmin.git
-cd healthadmin
-```
-
-## How to Run
-
-Simply open `index.html` in any modern browser:
-
-```bash
-open index.html        # macOS
-start index.html       # Windows
-xdg-open index.html    # Linux
-```
-
-Or serve it locally with any static server, for example:
-
-```bash
-npx serve .
-```
-
-## GitHub Instructions
-
-```bash
-git init
-git add .
-git commit -m "Initial commit — HealthAdmin capstone project"
-git branch -M main
-git remote add origin https://github.com/<your-username>/healthadmin.git
-git push -u origin main
-```
-
-## Deployment (GitHub Pages)
-
-1. Push the repository to GitHub.
-2. Go to **Settings → Pages** in your repository.
-3. Under **Branch**, select `main` and `/ (root)`, then **Save**.
-4. Your site will be published at `https://<your-username>.github.io/healthadmin/`.
 
 No server or backend is required — every page runs entirely in the browser.
 
